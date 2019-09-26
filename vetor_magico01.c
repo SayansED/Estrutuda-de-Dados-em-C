@@ -33,6 +33,7 @@ struct vetor_magico * cria_vm (int t){
 	return aux; 
 }
 
+
 //versao 01
 /*int esta_cheio (struct vetor_magico * pvm){
 	if(pvm->ocupacao == pvm->tamanho)
