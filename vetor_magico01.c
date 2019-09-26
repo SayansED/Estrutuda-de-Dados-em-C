@@ -1,14 +1,14 @@
 #include<stdlib.h>
 #include<stdio.h>
 
-// FunÁ„o da vers„o 01
+// Fun√ß√£o da vers√£o 01
 struct vetor_magico{
 	int ocupacao, tamanho;
 	int * v;
 };
 
 
-// FunÁ„o da vers„o 02
+// Fun√ß√£o da vers√£o 02
 /*void inicia_vm (int t, struct vetor_magico * pvm){ //Toda vez que for modificar passa por ponteiro
 	// Operador seta ->
 	// A estrutura que o pvm aponta
@@ -18,7 +18,7 @@ struct vetor_magico{
 }*/
 
 
-// FunÁ„o da vers„o 03
+// Fun√ß√£o da vers√£o 03
 struct vetor_magico * cria_vm (int t){
 	struct vetor_magico * aux;
 	aux = (struct vetor_magico * ) malloc (sizeof(struct vetor_magico));
@@ -77,7 +77,6 @@ int insere_elemento (int e, struct vetor_magico * pvm){
 	*/
 	return 1;
 }
-
 
 //Exercicio  **********************************************************
 int ultimo_inserido(struct vetor_magico * pvm){
@@ -166,7 +165,7 @@ int main(){
 		}
 	}
 	else{
-		printf("Falha na alocaÁ„o de memoria\n");
+		printf("Falha na aloca√ß√£o de memoria\n");
 	}
 	
 	return 0;
